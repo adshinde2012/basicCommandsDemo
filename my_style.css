@@ -1,0 +1,94 @@
+
+.newsletter {
+	text-align: center;
+	border: 1px solid gray;
+	margin: 50px;
+	padding: 25px 0px 50px 0px;
+	border-radius: 5px;
+}
+.submitBtn {
+	color: white;
+	border: none;
+	border-radius: 5px;
+	background-color: blue;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	font-size: 14px;
+}
+input[type=email] {
+	width: 22%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#mostReviewed {
+	width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mostReviewed div h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#mostReviewed div p {
+	margin-top: 5px;
+}
+#mostReviewed div button {
+	margin-top: 15px;
+}
+#mostReviewed div {
+  padding: 0px 50px 0px 50px;
+}
+
+.btnModel {
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px 25px 10px 25px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.row {
+	margin-left: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #F3F0F0;
+}
+
+/* retractable */
+#containerRetractable {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#retractable {
+	background-image: url("dash2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	padding: 50px 10px 50px 10px;
+}
+

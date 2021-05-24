@@ -1,0 +1,31 @@
+/* retractable */
+#retractable {
+	background-image: url("dash2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	padding: 60px 10px 50px 10px;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px; 
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+ul li:before {
+	content: "-";
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+	position: absolute;
+	left: 0;
+}
+
+/* who needs rect */
+#whoNeedsRect {
+	padding: 60px 10px 50px 10px;
+}
