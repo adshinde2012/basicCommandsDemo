@@ -1,3 +1,27 @@
+#myNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  #myNav li {
+	float: left;
+  }
+  
+  #myNav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #myNav li a:hover {
+	background-color: #111;
+  }
 /* retractable */
 #retractable {
 	background-image: url("dash2.jpg");
@@ -10,13 +34,13 @@
     margin-right: 0px;
     margin-left: 0px; 
 }
-ul {
+#retractable ul {
 	position: relative;
 	list-style: none;
 	margin-left: 0;
 	padding-left: 1.2em;
 }
-ul li:before {
+#retractable ul li:before {
 	content: "-";
   color: blue;
   font-size: 20px;
