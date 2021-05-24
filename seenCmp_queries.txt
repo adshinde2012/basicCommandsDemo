@@ -5,3 +5,4 @@
 subsidiary Groups
 external devices
 iternal devices
+commit from local repo
