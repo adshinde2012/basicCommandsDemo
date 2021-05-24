@@ -5,8 +5,5 @@
 subsidiary Groups
 external devices
 iternal devices
-<<<<<<< HEAD
 commit from local repo
-=======
 this changes for conflicts
->>>>>>> 7b891237255b30958b66e665604c5bc13860db6a
